@@ -2,19 +2,17 @@
 
 ## Objectifs
 
-    .
-    .
-    .
-
+    . Breast Cancer Prediction
+    . Good Accuracy 0.8-0.9
 
 
 ## Features
 
-    Id : patient identifiant
-    diagnosis : diagnostique
-    radius_mean : 
-    texture_mean :
-    perimeter_mean :
+    Id
+    diagnosis 
+    radius_mean 
+    texture_mean 
+    perimeter_mean 
     area_mean:
     smoothness_mean
     compactness_mean
