@@ -50,7 +50,7 @@
 
 ### Correlation 
     A lot of data are highly corelated
-        Maybe we can group them
+        Maybe we can group them or delete some cause if the hypothese is too complex our model can overfit
 
     radius_mean: {'perimeter_mean': 0.9978552814938113,
                     'area_mean': 0.9873571700566119,
