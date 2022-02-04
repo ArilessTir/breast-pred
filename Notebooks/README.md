@@ -49,7 +49,8 @@
     
 
 ### Correlation 
-    A lot of data are corelated
+    A lot of data are highly corelated
+        Maybe we can group them
 
     radius_mean: {'perimeter_mean': 0.9978552814938113,
                     'area_mean': 0.9873571700566119,
