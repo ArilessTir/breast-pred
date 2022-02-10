@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ariless/Bureau/IA/Machine_Learning/Projects/Breast%20Cancer/Notebooks/mlruns/0/8b2ad7c7494449f2aaa187bd41d116ef/artifacts
+end_time: 1644504415080
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 8b2ad7c7494449f2aaa187bd41d116ef
+run_uuid: 8b2ad7c7494449f2aaa187bd41d116ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1644504413273
+status: 3
+tags: []
+user_id: ariless
