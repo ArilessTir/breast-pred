@@ -39,7 +39,3 @@ if answer == 'O' or answer == "o":
         pickle.dump(model, open(model_save, 'wb'))
         print('model enregistré')
 
-
-loaded_model = pickle.load(open(model_save, 'rb'))
-result = loaded_model.score(X_test, y_test)
-print(result)
