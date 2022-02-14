@@ -1,6 +1,3 @@
-from termios import VERASE
-
-
 TARGET = 'diagnosis'
 
 REMOVE ='id'

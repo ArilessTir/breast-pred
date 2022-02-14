@@ -5,6 +5,6 @@ import Config
 preprocessor = ColumnTransformer(
     [
         ('Scaler', MinMaxScaler(),Config.NORMALIZE),
-        # ('drop',Config.REMOVE),
+        ('drop_feature','drop',Config.REMOVE),
     ]
 )
