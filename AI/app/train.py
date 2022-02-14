@@ -19,7 +19,6 @@ y = pd.Series(LabelEncoder().fit_transform(data['diagnosis']))
 X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.2, random_state=400)
 
 model = model.fit(X_train, y_train)
-print(X_train.columns)
 s_training = model.score(X_train,y_train)
 s_test = model.score(X_test,y_test)
 

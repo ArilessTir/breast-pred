@@ -1,7 +1,3 @@
-from cgi import print_directory
-from lib2to3.pgen2.token import RPAR
-
-from sqlalchemy import column
 from fastapi import FastAPI
 import pickle
 from pydantic import BaseModel
