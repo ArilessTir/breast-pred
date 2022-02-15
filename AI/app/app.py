@@ -2,6 +2,19 @@ from fastapi import FastAPI
 import pickle
 from pydantic import BaseModel
 import pandas as pd
+from fastapi.middleware.cors import CORSMiddleware
+
+app = FastAPI()
+
+origins = ["*"]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 class Data(BaseModel):
@@ -37,7 +50,6 @@ class Data(BaseModel):
     symmetry_worst: float
     fractal_dimension_worst: float
 
-app = FastAPI()
 
 model = pickle.load(open('../model/LinearSVC.sav', 'rb'))
 
