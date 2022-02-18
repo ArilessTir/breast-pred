@@ -1,0 +1,36 @@
+.button {
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button__next{
+    background: rgb(57, 85, 212);
+    color: white;
+}
+
+.button__previous{
+    background: rgb(80, 80, 82);
+    color: white;
+}
+
+.button__validate{
+    background-color: white;
+    border: solid 1px rgb(57, 85, 212);;
+    color: rgb(57, 85, 212);
+    transition: all 0.5s;
+}
+
+.button__validate:hover{
+    background-color: rgb(57, 85, 212);
+    color: white;
+}
+
+.button:disabled{
+    background-color: rgb(185, 185, 185);
+    color: rgb(235, 235, 235);
+}
+
