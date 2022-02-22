@@ -10,7 +10,7 @@ Two folders:
 
 	-AI which contain the code of the API and the ML model
 	
-	-Front which contain the code of a simple react project which asking the API 
+	-Front which contain the code of react project which asking the API 
 
 ### How to run this project ?
 ```bash
