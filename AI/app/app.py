@@ -51,7 +51,7 @@ class Data(BaseModel):
     fractal_dimension_worst: float
 
 
-model = pickle.load(open('../model/LinearSVC.sav', 'rb'))
+model = pickle.load(open('LinearSVC.sav', 'rb'))
 
 @app.get("/")
 def read_root():

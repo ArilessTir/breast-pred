@@ -13,5 +13,5 @@ NORMALIZE = ['radius_mean', 'texture_mean', 'perimeter_mean', 'area_mean',
             'symmetry_worst', 'fractal_dimension_worst']
 
 DATA_PATH = "Data/breast-cancer.csv"
-
+MODEL_PATH = "model/"
 VERSION = 0

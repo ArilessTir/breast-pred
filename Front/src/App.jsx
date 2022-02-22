@@ -2,7 +2,6 @@ import React,{useState} from 'react'
 import './App.css'
 import './styles/button.css'
 import Navbar from './components/navbar/navbar'
-import {BsChevronDown} from "react-icons/bs"
 import Formulary from './components/form/formulary'
 
 
@@ -12,7 +11,7 @@ const App= ()=> {
   return (
     <div className="App">
       <Navbar />
-      <header className="App-header">
+      {/* <header className="App-header">
         <h1> Breats Prediction</h1>
         <div className='scroll'>
           <div className='scroll__circle'>
@@ -20,7 +19,7 @@ const App= ()=> {
             <BsChevronDown className='chevron'/>
           </div>
         </div>
-      </header>
+      </header> */}
       <Formulary setDiag={setDiag}/>
       <p>Result : {diag} </p>
     </div>

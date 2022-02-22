@@ -46,7 +46,7 @@ const Formulary = ({ setDiag })=>{
 
     const config = {
     method: 'post',
-    url: 'http://127.0.0.1:8000/prediction',
+    url: 'http://0.0.0.0:5000/prediction',
     headers: { 
         'Content-Type': 'application/json'
     },
