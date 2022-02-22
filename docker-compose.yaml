@@ -1,0 +1,25 @@
+version: '3.5'
+
+services:
+  python:
+    container_name: breast_ai
+    build:
+      context: ./AI
+    ports:
+      - 5000:5000
+    networks:
+      - mynet
+  react:
+    container_name: breast_front
+    build:
+      context: ./Front
+    ports:
+      - 3000:3000
+    depends_on:
+      - python
+    networks:
+      - mynet
+
+networks:
+  mynet:
+    driver: bridge
